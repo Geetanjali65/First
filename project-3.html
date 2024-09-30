@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is a project</title>
+    <style>
+        img
+        {
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            z-index: -1;
+        }
+        .container 
+        {
+            background-color: rgb(54, 34, 34);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .items ul li 
+        {
+            list-style-type: none;
+            padding: 0px 10px;
+            margin: 0px 10px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .items ul
+        {
+            display: flex; 
+        }
+        .items h1
+        {
+            margin: 0px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./image/sea.jpg" alt="">
+    <div class="container">
+        <div class="items" id="item-1">
+            <h1>Coding Lab</h1>
+        </div>
+        <div class="items" id="item-2">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Contact</li>
+                <li>Feedback</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
